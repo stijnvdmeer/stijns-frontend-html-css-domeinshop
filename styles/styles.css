@@ -94,15 +94,75 @@ header {
     margin-right: -2px;
 }
 /*///////////// 3.2 Testimonial /////////////*/
+main {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin: 75px;
+}
 
+article {
+    box-shadow: 2px 2px 5px 4px #899CA0;
+    border-radius: 10px;
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px  75px 50px 125px;
+    margin-top: 90px;
 
-
+    img {
+        position: absolute;
+        left: 33%;
+    }
+}
+cite {
+    img {
+        height: 50px;
+        width: 50px;
+    }
+    span {
+        padding: 10px;
+    }
+}
 /*///////////// 3.3 Support /////////////*/
-
-
-
+#callcenterimg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 50px;
+    width: 1200px;
+}
+#supporttext {
+    font-size: 19px;
+    margin-top: 25px;
+    display: block;
+}
+button {
+    background-color: #2d323b;
+    color: white;
+    border-radius: 50px;
+    padding: 25px;
+    font-size: 25px;
+    margin-top: 30px;
+}
 /*///////////// 3.4 Faq /////////////*/
 
-
+details {
+    margin: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    p {
+        background-color: #899CA0;
+        padding: 40px;
+        border-radius: 10px;
+        color: white;
+        cursor: default;
+    }
+}
 
 /*///////////// 3.5 Footer /////////////*/
