@@ -15,7 +15,11 @@ Table of Contents:
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
-
+body {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 
 /*////////////////////////
@@ -31,9 +35,64 @@ Table of Contents:
 
 
 /*///////////// 3.1 Header /////////////*/
+header {
+    background-image: url("../assets/images/mountains.jpg") ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    padding-top: 100px;
+    height: 1000px;
 
+    h1 {
+        text-align: center;
+        font-family: "Poppins", serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 9em;
+        margin-bottom: 7px;
+    }
+    p {
+        text-align: center;
+        font-size: 1.4em;
+        margin-bottom: 50px;
+    }
+}
 
+.formfield {
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.formgroup {
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
+}
+#submitinput {
+    height: 84px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #2d323b;
+    color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: -3px;
+}
+#textinput {
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+    padding-right: 60px;
+    background-color: transparent;
+    margin-right: -2px;
+}
 /*///////////// 3.2 Testimonial /////////////*/
 
 
