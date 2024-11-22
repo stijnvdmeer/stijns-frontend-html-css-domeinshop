@@ -94,9 +94,41 @@ header {
     margin-right: -2px;
 }
 /*///////////// 3.2 Testimonial /////////////*/
+main {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin: 75px;
+}
 
+article {
+    box-shadow: 2px 2px 5px 4px #899CA0;
+    border-radius: 10px;
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px  75px 50px 125px;
+    margin-top: 90px;
 
-
+    img {
+        position: absolute;
+        left: 33%;
+    }
+}
+cite {
+    img {
+        height: 50px;
+        width: 50px;
+    }
+    p {
+        padding: 10px;
+    }
+}
 /*///////////// 3.3 Support /////////////*/
 
 
