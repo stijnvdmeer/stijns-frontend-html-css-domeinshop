@@ -152,6 +152,17 @@ button {
 }
 /*///////////// 3.4 Faq /////////////*/
 
-
+details {
+    margin: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    p {
+        background-color: #899CA0;
+        padding: 40px;
+        border-radius: 10px;
+        color: white;
+        cursor: default;
+    }
+}
 
 /*///////////// 3.5 Footer /////////////*/
