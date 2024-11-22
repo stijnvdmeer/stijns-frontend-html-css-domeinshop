@@ -125,14 +125,31 @@ cite {
         height: 50px;
         width: 50px;
     }
-    p {
+    span {
         padding: 10px;
     }
 }
 /*///////////// 3.3 Support /////////////*/
-
-
-
+#callcenterimg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 50px;
+    width: 1200px;
+}
+#supporttext {
+    font-size: 19px;
+    margin-top: 25px;
+    display: block;
+}
+button {
+    background-color: #2d323b;
+    color: white;
+    border-radius: 50px;
+    padding: 25px;
+    font-size: 25px;
+    margin-top: 30px;
+}
 /*///////////// 3.4 Faq /////////////*/
 
 
